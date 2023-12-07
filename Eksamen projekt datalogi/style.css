@@ -5,6 +5,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #f0f0f0; /* Background color for better visibility */
 }
 
 .container {
@@ -14,19 +15,25 @@ body {
 #word-display {
     font-size: 24px;
     margin: 20px 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #guess-input {
-    padding: 5px;
+    padding: 8px;
     margin-right: 10px;
+    font-size: 16px;
 }
 
 button {
-    padding: 8px;
+    padding: 10px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 #feedback {
     margin-top: 20px;
     font-weight: bold;
+    font-size: 18px;
 }

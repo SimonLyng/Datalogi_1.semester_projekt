@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Wordle Game</title>
+    <link rel="stylesheet" href="css/styleMultiplayer.css">
+    <title>Wordle Game - Multiplayer</title>
 </head>
 <body>
     <div class="container">
-        <h1>Guess the Word!</h1>
+        <h1>Guess the Word - Multiplayer Mode!</h1>
         <div id="word-display"></div>
         <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
+        <input type="text" id="word-guess-input" placeholder="Enter the entire word">
         <button onclick="checkGuess()">Check Guess</button>
-        <button onclick="startSinglePlayerGame()">Start Single Player</button>
-        <button onclick="startMultiPlayerGame()">Start Multiplayer</button>
+        <button onclick="guessEntireWord()">Guess Entire Word</button>
         <div id="feedback"></div>
         <div id="turn-indicator"></div>
     </div>
-    <script src="script.js"></script>
+    <script src="js/multiplayer.js"></script>
 </body>
 </html>
